@@ -27,4 +27,11 @@ module.exports = {
     'no-underscore-dangle': 'off',
     'global-require': 'off',
   },
+  settings: {
+    "import/resolver": {
+      "babel-plugin-root-import": {
+        rootPathSuffix: "src"
+      },
+    },
+  },
 };
